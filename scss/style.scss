@@ -2,8 +2,9 @@ body{
     background-color: beige;
     color: blueviolet;
 }
-#contenant{
-    min-height: 100px;
-    min-height: 100px;
-    background-color: cadetblue;
+#auj{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
