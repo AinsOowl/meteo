@@ -5,5 +5,18 @@ body{
 #auj{
     justify-content: center;
     display: flex;
-    text-align: left;
+    flex-direction: column;
+    text-align: center;
+}
+#auj :nth-child(1){
+    text-align: center;
+}
+.reste{
+    display:flex;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.reste :nth-child(1){
+    text-align: center;
 }
