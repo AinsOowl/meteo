@@ -1,4 +1,26 @@
 body{
-    background-color: red;
+    background-color: beige;
     color: blueviolet;
+}
+#auj{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#auj :nth-child(1){
+    text-align: center;
+}
+.reste{
+    display:flex;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.reste :nth-child(1){
+    text-align: center;
+}
+.icons{
+    max-width: 125px;
+    max-height: 125px;
 }
