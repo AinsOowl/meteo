@@ -27,6 +27,7 @@ $(document).ready(function(){
          monObjet.current_condition.condition_key=="brouillard"||
          monObjet.current_condition.condition_key=="faibles-passages-nuageux") {
              $('#icon1').attr("src","img/"+monObjet.current_condition.condition_key+".png");
+             $('#imgfond').attr("src","img/"+monObjet.current_condition.condition_key+".jpeg");
         } else {
              $('#icon1').attr("src","https://prevision-meteo.ch/style/images/icon/"+monObjet.current_condition.condition_key+"-big.png");  
          }
