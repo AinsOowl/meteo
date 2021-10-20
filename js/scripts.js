@@ -18,7 +18,7 @@ $(document).ready(function(){
      console.log(monObjet);
      //aujourd'hui
      var element = document.getElementById("auj");
-         element.innerHTML = '<div><img id="icon1" class="iconsauj" src="'+monObjet.current_condition.icon_big+'" alt="icon météo"><h1> <div class="dayname">'+ monObjet.fcst_day_1.day_long +'</div><br><div class"date">'+ monObjet.current_condition.date+'</div></h1><h2> <div class="ville"'+ville+'</div><br> <div class="tempact"> Temps actuelle: '+monObjet.current_condition.tmp+'</div><br> <div class="tempM"> Min/Max: '+ monObjet.fcst_day_1.tmin +'°/'+ monObjet.fcst_day_1.tmax+'°'+'</div></h2><p><div class="condition">Condition: '+ monObjet.fcst_day_1.condition +'</div><br><div class="humidite">Humidité: '+monObjet.current_condition.humidity+'% </div><br><div class="dirvent">Direction du vent: '+monObjet.current_condition.wnd_spd+'m/s</div><div class="vitvent">Vitesse du vent: '+monObjet.current_condition.wnd_dir+'</div><div class="pression">Pression: '+monObjet.current_condition.pressure+' bars</div></p></div>';
+         element.innerHTML = '<div><img id="icon1" class="iconsauj" src="'+monObjet.current_condition.icon_big+'" alt="icon météo"><h1> <div class="dayname">'+ monObjet.fcst_day_1.day_long +'</div><br><div class"date">'+ monObjet.current_condition.date+'</div></h1><div class="nomville">'+ville+'</div><h2> <div class="ville"'+ville+'</div><br> <div class="tempact"> Temps actuelle: '+monObjet.current_condition.tmp+'</div><br> <div class="tempM"> Min/Max: '+ monObjet.fcst_day_1.tmin +'°/'+ monObjet.fcst_day_1.tmax+'°'+'</div></h2><p><div class="condition">Condition: '+ monObjet.fcst_day_1.condition +'</div><br><div class="humidite">Humidité: '+monObjet.current_condition.humidity+'% </div><br><div class="dirvent">Direction du vent: '+monObjet.current_condition.wnd_spd+'m/s</div><div class="vitvent">Vitesse du vent: '+monObjet.current_condition.wnd_dir+'</div><div class="pression">Pression: '+monObjet.current_condition.pressure+' bars</div></p></div>';
 
          if (monObjet.current_condition.condition_key=="ensoleille"|| monObjet.current_condition.condition_key=="eclaircies"||monObjet.current_condition.condition_key=="averses-de-pluie-faible"||
          monObjet.current_condition.condition_key=="pluie-forte"|| monObjet.current_condition.condition_key=="neige-moderee"||
@@ -65,7 +65,7 @@ $(document).ready(function(){
          monObjet.fcst_day_3.condition_key=="faibles-passages-nuageux") {
              $('#icon4').attr("src","img/"+monObjet.fcst_day_3.condition_key+".png");
          } else {
-             $('#icon4').attr("src","img/nuageux.png");
+             $('#icon4').attr("src","https://prevision-meteo.ch/style/images/icon/"+monObjet.fcst_day_3.condition_key+"-big.png");
          }
 
 //                      jour5
@@ -78,7 +78,7 @@ $(document).ready(function(){
          monObjet.fcst_day_4.condition_key=="faibles-passages-nuageux") {
              $('#icon5').attr("src","img/"+monObjet.fcst_day_4.condition_key+".png");
          } else {
-             $('#icon5').attr("src","img/ensoleille.png");
+             $('#icon4').attr("src","https://prevision-meteo.ch/style/images/icon/"+monObjet.fcst_day_4.condition_key+"-big.png");  
          }
 
 } // success function
