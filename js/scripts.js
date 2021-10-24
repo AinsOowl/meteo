@@ -24,6 +24,7 @@ $(document).ready(function(){
 //                      icones jour 1
          if (monObjet.current_condition.condition_key=="ensoleille"|| monObjet.current_condition.condition_key=="eclaircies"||monObjet.current_condition.condition_key=="averses-de-pluie-faible"||
          monObjet.current_condition.condition_key=="pluie-forte"|| monObjet.current_condition.condition_key=="neige-moderee"||
+         monObjet.current_condition.condition_key=="nuit-nuageuse"||
          monObjet.current_condition.condition_key=="brouillard"||
          monObjet.current_condition.condition_key=="faibles-passages-nuageux") {
              $('#icon1').attr("src","img/"+monObjet.current_condition.condition_key+".png");

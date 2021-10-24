@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 body{
     background-color: beige;
     color: blueviolet;
@@ -29,5 +27,17 @@ body{
 #imgfond{
     position:fixed;
     z-index:-1;
+    
 }
->>>>>>> master
+
+
+@media screen and (max-width: 768px)
+{
+    .reste{
+        display:flex;
+        width:900px;
+        margin-left:auto;
+        margin-right:auto;
+        flex-direction: column;
+    }
+}
