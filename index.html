@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="text/html" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>MÉTÉO</title>
@@ -11,17 +12,18 @@
 <body>
  
 
-<!--     <div id="conteneur"><img id="imgfond" class="imgfond" src="" alt="photo fond">
- -->        <input type="text" id="ville" name="Ville">
+     <div id="conteneur">
+        <input type="text" id="ville" name="Ville">
         <button id="go">Rechercher</button>
         <div class="row">
-        <p id="auj" class="col-md-3 offset-3"></p>
-        <div class="reste col-md-3 offset-3">
-            <div id="jour2"></div>
-            <div id="jour3"></div>
-            <div id="jour4"></div>
-            <div id="jour5"></div>
-        </div>
+        <p id="auj" class="ajd col-md-3 offset-md-1 "></p>
+        <div class="reste col-md-6 ">
+          <img id="imgfond" class="imgfond" src="" alt="photo fond">
+          <div id="jour2"></div>
+          <div id="jour3"></div>
+          <div id="jour4"></div>
+          <div id="jour5"></div>
+      </div>
     </div>
   </div><!--fin row-->
   <button type="button" class="btn btn-primary">Primary</button>
