@@ -36,7 +36,6 @@ body{
     position:fixed;
     left:0;
     z-index:-1;
-<<<<<<< HEAD
     max-width: 100%;
     max-height: 100%;
 }
@@ -49,7 +48,7 @@ body{
     background-color: #ffffff;
     padding:15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    margin: 10px;
+    margin: 5px;
 }
 .ajd h1{
     font-size: 2vw;
@@ -127,28 +126,3 @@ body{
 
 
 
-=======
-    height:auto;
-    width: 100%;
-}   
-
-#conteneur{
-    width:100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#conteneur input{
-    margin-left:20px;
-margin-top:10px;
-}
-
-#conteneur button{
-    margin-left:20px;
-    margin-top:10px;
-    }
-.centrage{
-    width:305px;
-    margin-left:auto;
-    margin-right:auto;
-}
->>>>>>> 313b788535a6e904554811289db5a5a306cecbcf
