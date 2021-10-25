@@ -1,6 +1,8 @@
 body{
     background-color: beige;
-    color: blueviolet;
+    color: white;
+    margin:0;
+    font-family: verdana, sans-serif;
 }
 #auj{
     justify-content: center;
@@ -30,9 +32,11 @@ body{
     max-width: 125px;
     max-height: 125px;
 }
-#imgfond{
+.imgfond{
     position:fixed;
+    left:0;
     z-index:-1;
+<<<<<<< HEAD
     max-width: 100%;
     max-height: 100%;
 }
@@ -123,3 +127,28 @@ body{
 
 
 
+=======
+    height:auto;
+    width: 100%;
+}   
+
+#conteneur{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#conteneur input{
+    margin-left:20px;
+margin-top:10px;
+}
+
+#conteneur button{
+    margin-left:20px;
+    margin-top:10px;
+    }
+.centrage{
+    width:305px;
+    margin-left:auto;
+    margin-right:auto;
+}
+>>>>>>> 313b788535a6e904554811289db5a5a306cecbcf
