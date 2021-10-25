@@ -19,13 +19,11 @@ body{
     text-align: center;
 }
 .reste{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    width:auto;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 13%;
-   
+    width: auto;
+    margin-top: 15%;
+    margin-left: 50px;
 }
 .reste :nth-child(1){
     text-align: center;
@@ -120,10 +118,27 @@ body{
 }
 #icon1{
     width: 50%;
+    height: auto;
+}
+#icon2{
+    width: 50%;
+    height: auto;
+}
+#icon3{
+    width: 50%;
+    height: auto;
+}
+#icon4{
+    width: 50%;
+    height: auto;
+}
+#icon5{
+    width: 50%;
+    height: auto;
 }
 .villea{
     margin-left:45%;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 
